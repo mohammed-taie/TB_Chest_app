@@ -1,0 +1,49 @@
+# Ignore sensitive files
+secrets.toml
+tbchestapp-firebase-adminsdk-fbsvc-e215487f75.json  # Firebase service account key
+
+# Ignore Python cache and compiled files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.py.class
+
+# Ignore model files (if you want to exclude them from version control)
+*.keras
+*.h5
+*.pb
+variables/
+
+# Ignore environment and virtualenv files
+.env
+venv/
+env/
+.venv/
+ENV/
+
+# Ignore IDE-specific files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Ignore Streamlit cache and logs
+.streamlit/
+.streamlit/secrets.toml
+
+# Ignore macOS system files
+.DS_Store
+
+# Ignore Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Ignore log files
+*.log
+
+# Ignore temporary files
+*.tmp
+*.temp
+
+# Ignore local development files
+local_settings.py
