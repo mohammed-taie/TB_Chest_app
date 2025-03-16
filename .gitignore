@@ -10,7 +10,8 @@ __pycache__/
 *.py.class
 
 # Ignore model files (if you want to exclude them from version control)
-*.keras
+# Remove the line below to allow .keras files to be tracked
+# *.keras
 *.h5
 *.pb
 variables/
