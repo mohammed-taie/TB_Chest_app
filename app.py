@@ -50,7 +50,7 @@ def initialize_firebase():
 # ==================================================
 # Configuration
 # ==================================================
-MODEL_PATH = "cnn_best_artifact.keras"
+MODEL_PATH = "cnn_best_artifact"  # Point to the folder, not a specific file
 VALID_CREDENTIALS = {
     "user1": "password1",
     "user2": "password2",
